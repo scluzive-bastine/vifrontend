@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/rtop.videoPlayer.1.0.1.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+    <style type="text/css">
+        
+    </style>
+</head>
+
+<body>
+    <div class="menu_sidebar ">
+         <img alt="" class="sidebarlogo" src="img/sidebarlogo.png">
+         <img alt="" class="sidebarlogoLarge" src="img/logo-text.png">
+        <ul class="sidebar_menu">
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/home.png">
+                    </div>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/aboutus.png">
+                    </div>
+                    <span class="text">About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/livevideo.png">
+                    </div>
+                    <span class="text">Live Video</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/faq.png">
+                    </div>
+                    <span class="text">FAQ</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/account.png">
+                    </div>
+                    <span class="text">My Account</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/lipstick.png">
+                    </div>
+                    <span class="text">Beauty Cosmetics Fashion</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/theater.png">
+                    </div>
+                    <span class="text">Comedy</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/cinema.png">
+                    </div>
+                    <span class="text">Entertainment</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/brigadeiro.png">
+                    </div>
+                    <span class="text">Food & Drink</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/music.png">
+                    </div>
+                    <span class="text">Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/basketball-ball.png">
+                    </div>
+                    <span class="text">Sports</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/travel.png">
+                    </div>
+                    <span class="text">Travel</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/video_gaming.png">
+                    </div>
+                    <span class="text">Video Gaming</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                         <img alt="" class="icon" src="img/sidebar/event.png">
+                    </div>
+                    <span class="text">Weddings & Social Events</span>
+                </a>
+            </li>
+        </ul>
+        <a href="#." class="toggle_sidebar"><i class="fas fa-bars"></i></a>
+        <a href="#." class="logout"> <img alt="" src="img/sidebar/logout.png"></a>
+    </div>
+    <div id="wrapper">
+        <section class="top_bar">
+            <div class="container-fluid">
+                <div class="row justifyBetween">
+                    <div class="col-md-6 d-none d-md-block">
+                        <div class="row left">
+                            <div class="col-md-8">
+                                <div class="input_wrapper1">
+                                     <img alt="" class="icon" src="img/search_icon3.png">
+                                    <input type="text" placeholder="Search" name="">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="dropdown">
+                                    <button class="mr-4 btn btn-primary rounded-btn icon-btn2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        USD($)  <img alt="" class="icon" src="img/down_icon.png">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Dropdown1</a>
+                                        <a class="dropdown-item" href="#">Dropdown2</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right">
+                            <a href="#." class="toggle_sidebar_mobile d-md-none"><i class="fas fa-bars"></i></a>
+                            <div class="btn_area">
+                                <button class="btn-outline-primary btn rounded-btn">
+                                     <img alt="" class="icon" src="img/cart.png">
+                                    <span class="item">0 Item</span>
+                                    <span>$0</span>
+                                </button>
+                                <button class="btn-secondary btn rounded-btn">
+                                     <img alt="" class="icon" src="img/video2.png">
+                                    <span>0 Item</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionPT sectionPB privacy_policy">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="sectionHeading3 mb-5">Privacy Policy</h1>
+                        <div class="img_area mb-5">
+                             <img alt="" src="img/privacy.png">
+                        </div>
+                        <p class="m-0">The privacy of visitors to this site is very important to us. This Privacy Policy gives you information on what types of </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="right_sidebar">
+                            <p class="title">Top selling</p>
+                            <ul>
+                                <li>
+                                    <div class="img_area">
+                                         <img alt="" src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                         <img alt="" src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                         <img alt="" src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                         <img alt="" src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                         <img alt="" src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                         <img alt="" src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <p>personal information we collect when you use this site, and our practices with respect to the use and disclose of such information.  By visiting vicomma.com or vicommaentertainment.com (collectively “vicomma” all which fall under the vicomma ENTERTAINMENT COMPANY LLC.), you agree to this Privacy Policy and to the Terms of Service (TOS).</p>
+                        <h2 class="content_heading1">Information We Collect By Default</h2>
+
+                        <p>We receive and may store any personal information you enter on your website or may give us in any other way. This
+                        information may include your name or email address, content you submit to the website, and other information
+                        When we disclose information about you: </p>
+
+                        <p> We may automatically receive and store certain types of information whenever you intreact with us For example, vicomma allows guest commenting. when you make a guest comment, we may publish the content of your comment
+                        and may collect your IP (internet protocol) address, the time and the date your made the comemnt. we do not use cookies to collect or store information about you.</p>
+
+                         <h2 class="content_heading1">How We Use The Information You Provide Us</h2>
+
+                        <p>We may use the information that you provide for a variety of purposes, including to respond to your requests, to improve the overall quality of the Website, and to communicate with you, among other things.</p>
+
+                        <p> When we disclose information about you:</p>
+
+                        <p>We never disclose your personal information to third parties.</p>
+
+                        <p>For information you give us, or information we automatically collect, certain records may be produced to law enforcement or private litigants in response to valid legal process. vicomma reserves the right to cooperate with government and law enforcement officials and private parties to enforce and comply with the law. We reserve the right to disclose any information about you to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims and legal process (including but not limited to subpoenas), to protect the property and rights of vicomma or a third party, to protect the safety of the public or any person, or to prevent or stop any activity we may consider to be, or to pose a risk of being, illegal, unethical, inappropriate or legally actionable.</p>
+
+                        <p>vicomma also reserves the right to, but is not obligated to, refuse to disclose confidential sources or unpublished information we collect as part of our journalistic and/or news gathering and reporting under federal and/or state law.</p>
+
+                        <h2 class="content_heading1">Information Our Advertising Parties Collect By Defaul</h2>
+                        <p>We use third party advertisements to support our site.  Some of these advertisers may use technology such as cookies and web beacons when they advertise on our site, which will send these advertisers (such as Google through the Google AdSense program) information including your IP address, your ISP, the browser you used to visit our site, and in some cases, whether you have Flash installed. You can choose to disable or selectively turn off our cookies or third-party cookies in your browser settings, or by managing preferences in programs such as Norton Internet Security.  However, this can affect how you are able to interact with our site as well as other websites.  vicomma has no control over these ad providers’ practices and you should review their privacy policies and steps for managing cookies.</p>
+
+                        <p>We use third-party advertising companies to serve ads when you visit our Web site. These companies may use aggregated information (not including your name, address, email address or telephone number) about your visits to this and other Web sites in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, please see: http://www.networkadvertising.org/managing/opt_out.asp</p>
+
+                        <p>GDPR Disclaimer: Our advertising demand partners, supported advertising mediation partners, data partners, and fraud and measurement partners have a legitimate interest to collect and profile personal data in the form of IP address and cookie ID from users on our website in order to provide targeted online advertising and ad measurement. For more details including opt-out requests, access requests or complaints, please email legal@vicomma.com.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section class="sectionBg2 vd_su2">
+            <div class="container-fluid">
+                <div class="video_suggestions">
+                    <div class="single_suggestion">
+                        <div class="title_sec">
+                            <h2 class="heading">Trending</h2>
+                            <!-- <div class="btn_area">
+                                <button type="button" class="btn btn-outline-primary rounded-btn">Top View</button>
+                                <button type="button" class="btn btn-secondary rounded-btn">View All</button>
+                            </div> -->
+                        </div>
+                        <div class="suggestion_list">
+                            <div class="owl-carousel owl-theme suggestion_carousel suggestion_carousel_r4">
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                             <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                             <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy 2</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                             <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                             <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                             <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                             <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="sectionPT sectionPB">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <div class="img_area">
+                                 <img alt="" class="logo" src="img/footer-logo.png">
+                            </div>
+                            <p>For users: Vicomma has combined the joy of watching videos with the convenience of buying what you see in your favorites videos. Get the latest products, merchandise, event tickets, specials and discounts, and more all in one place.
+                            </p>
+                            <p>For vendors: Register a Vendor Station to develop a direct</p>
+                            <ul class="social_list1">
+                                <li><a href="#."><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#."><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#."><i class="fab fa-tiktok"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box video_footer">
+                            <h2 class="heading">The  Latest</h2>
+                            <a href="#." class="videoBox">
+                                <div class="img_area">
+                                     <img alt="" src="img/footer-image.png">
+                                    <i class="fas fa-play icon"></i>
+                                </div>
+                            </a>
+                            <a href="#." class="videoBox">
+                                <div class="img_area">
+                                     <img alt="" src="img/footer-image2.png">
+                                    <i class="fas fa-play icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <h2 class="heading">Library</h2>
+
+                            <ul class="list">
+                                <li><a href="#.">Beauty Cosmetics Fashion</a></li>
+                                <li><a href="#.">Comedy</a></li>
+                                <li><a href="#.">Entertainment</a></li>
+                                <li><a href="#.">Food & Drink</a></li>
+                                <li><a href="#.">Gist n Tabloid</a></li>
+                                <li><a href="#.">Music </a></li>
+                                <li><a href="#.">Travel & Events</a></li>
+                                <li><a href="#.">Video Gaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <h2 class="heading">Relevant Interest</h2>
+
+                            <ul class="list">
+                                <li><a href="#.">Send Us A Quick Message</a></li>
+                                <li><a href="#.">Privacy Policy </a></li>
+                                <li><a href="#.">Vendor and User Information</a></li>
+                                <li><a href="#.">Delivery Information</a></li>
+                                <li><a href="#.">Online Video Submission Agreement</a></li>
+                                <li><a href="#.">Return Policy </a></li>
+                                <li><a href="#.">Tearms & Conditions </a></li>
+                                <li><a href="#.">Your Account</a></li>
+                                <li><a href="#.">Advertise With Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/jquery.syotimer.min.js"></script>
+
+    <script type="text/javascript" src="js/rtop.videoPlayer.1.0.1.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>

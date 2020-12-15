@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/rtop.videoPlayer.1.0.1.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+    <style type="text/css">
+        
+    </style>
+</head>
+
+<body>
+    <div class="menu_sidebar ">
+        <img alt=""  class="sidebarlogo" src="img/sidebarlogo.png">
+        <img alt=""  class="sidebarlogoLarge" src="img/logo-text.png">
+        <ul class="sidebar_menu">
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/home.png">
+                    </div>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/aboutus.png">
+                    </div>
+                    <span class="text">About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/livevideo.png">
+                    </div>
+                    <span class="text">Live Video</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/faq.png">
+                    </div>
+                    <span class="text">FAQ</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/account.png">
+                    </div>
+                    <span class="text">My Account</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/lipstick.png">
+                    </div>
+                    <span class="text">Beauty Cosmetics Fashion</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/theater.png">
+                    </div>
+                    <span class="text">Comedy</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/cinema.png">
+                    </div>
+                    <span class="text">Entertainment</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/brigadeiro.png">
+                    </div>
+                    <span class="text">Food & Drink</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/music.png">
+                    </div>
+                    <span class="text">Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/basketball-ball.png">
+                    </div>
+                    <span class="text">Sports</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/travel.png">
+                    </div>
+                    <span class="text">Travel</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/video_gaming.png">
+                    </div>
+                    <span class="text">Video Gaming</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt=""  class="icon" src="img/sidebar/event.png">
+                    </div>
+                    <span class="text">Weddings & Social Events</span>
+                </a>
+            </li>
+        </ul>
+        <a href="#." class="toggle_sidebar"><i class="fas fa-bars"></i></a>
+        <a href="#." class="logout"><img alt=""  src="img/sidebar/logout.png"></a>
+    </div>
+    <div id="wrapper">
+        <section class="top_bar">
+            <div class="container-fluid">
+                <div class="row justifyBetween">
+                    <div class="col-md-6 d-none d-md-block">
+                        <div class="row left">
+                            <div class="col-md-8">
+                                <div class="input_wrapper1">
+                                    <img alt=""  class="icon" src="img/search_icon3.png">
+                                    <input type="text" placeholder="Search" name="name">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="dropdown">
+                                    <button class="mr-4 btn btn-primary rounded-btn icon-btn2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        USD($) <img alt=""  class="icon" src="img/down_icon.png">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Dropdown1</a>
+                                        <a class="dropdown-item" href="#">Dropdown2</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right">
+                            <a href="#." class="toggle_sidebar_mobile d-md-none"><i class="fas fa-bars"></i></a>
+                            <div class="btn_area">
+                                <button class="btn-outline-primary btn rounded-btn">
+                                    <img alt=""  class="icon" src="img/cart.png">
+                                    <span class="item">0 Item</span>
+                                    <span>$0</span>
+                                </button>
+                                <button class="btn-secondary btn rounded-btn">
+                                    <img alt=""  class="icon" src="img/video2.png">
+                                    <span>0 Item</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionPT sectionPB">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="img_area">
+                            <img alt=""  src="img/about.png">
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <div class="right_sidebar">
+                            <p class="title">Top selling</p>
+                            <ul>
+                                <li>
+                                    <div class="img_area">
+                                        <img alt=""  src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                        <img alt=""  src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                        <img alt=""  src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                        <img alt=""  src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                        <img alt=""  src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img_area">
+                                        <img alt=""  src="img/selling.png">
+                                    </div>
+                                    <div class="info">
+                                        <p class="p_title">Medal for illustration</p>
+                                        <div class="bottom">
+                                            <span class="price">$25</span>
+                                            <button class="btn btn-secondary  rounded-btn btn-sm">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="about_section">
+                            <h1 class="section_heading2 colorSnd"> About Us </h1>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Maxflix, Africa’s first and only social viral platform for all things African. We aim to connect Users and Vendors and vice versa through video. We originated in 2007 “to your doorstep” African video delivery service. Due to a few setbacks we went offline; but now we’re back! We have restructured now as the only medium of its kind where you visually get the African experience on all things African. Africa is a great big continent why not share what she has with the world. From culture, to entertainment, to style and beauty; maxflix.com lets’s e YOU sell your </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>brand through videos. Register an account today, create your station and post your videos and products today on the only platform of its kind. We have more in store so we hope that you stay with us as long as possible. </p>
+
+                                    <p>Take a look at where we were 11 years ago!</p>
+
+                                    <p>Thank you and happy viewing and see you soon…literally!
+                                    Planet Maxflix</p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                         <div class="myVideo mt-5" id="my_video" data-video="https://www.w3schools.com/html/mov_bbb.mp4" data-poster="img/sample.jpg" data-type='video/mp4'></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionBg2 vd_su2">
+            <div class="container-fluid">
+                <div class="video_suggestions">
+                    <div class="single_suggestion">
+                        <div class="title_sec">
+                            <h2 class="heading">Trending</h2>
+                            <!-- <div class="btn_area">
+                                <button type="button" class="btn btn-outline-primary rounded-btn">Top View</button>
+                                <button type="button" class="btn btn-secondary rounded-btn">View All</button>
+                            </div> -->
+                        </div>
+                        <div class="suggestion_list">
+                            <div class="owl-carousel owl-theme suggestion_carousel suggestion_carousel_r4">
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt=""  src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt=""  src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy 2</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt=""  src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt=""  src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt=""  src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt=""  src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="sectionPT sectionPB">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <div class="img_area">
+                                <img alt=""  class="logo" src="img/footer-logo.png">
+                            </div>
+                            <p>For users: Vicomma has combined the joy of watching videos with the convenience of buying what you see in your favorites videos. Get the latest products, merchandise, event tickets, specials and discounts, and more all in one place.
+                            </p>
+                            <p>For vendors: Register a Vendor Station to develop a direct</p>
+                            <ul class="social_list1">
+                                <li><a href="#."><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#."><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#."><i class="fab fa-tiktok"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box video_footer">
+                            <h2 class="heading">The  Latest</h2>
+                            <a href="#." class="videoBox">
+                                <div class="img_area">
+                                    <img alt=""  src="img/footer-image.png">
+                                    <i class="fas fa-play icon"></i>
+                                </div>
+                            </a>
+                            <a href="#." class="videoBox">
+                                <div class="img_area">
+                                    <img alt=""  src="img/footer-image2.png">
+                                    <i class="fas fa-play icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <h2 class="heading">Library</h2>
+
+                            <ul class="list">
+                                <li><a href="#.">Beauty Cosmetics Fashion</a></li>
+                                <li><a href="#.">Comedy</a></li>
+                                <li><a href="#.">Entertainment</a></li>
+                                <li><a href="#.">Food & Drink</a></li>
+                                <li><a href="#.">Gist n Tabloid</a></li>
+                                <li><a href="#.">Music </a></li>
+                                <li><a href="#.">Travel & Events</a></li>
+                                <li><a href="#.">Video Gaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <h2 class="heading">Relevant Interest</h2>
+
+                            <ul class="list">
+                                <li><a href="#.">Send Us A Quick Message</a></li>
+                                <li><a href="#.">Privacy Policy </a></li>
+                                <li><a href="#.">Vendor and User Information</a></li>
+                                <li><a href="#.">Delivery Information</a></li>
+                                <li><a href="#.">Online Video Submission Agreement</a></li>
+                                <li><a href="#.">Return Policy </a></li>
+                                <li><a href="#.">Tearms & Conditions </a></li>
+                                <li><a href="#.">Your Account</a></li>
+                                <li><a href="#.">Advertise With Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/jquery.syotimer.min.js"></script>
+
+    <script type="text/javascript" src="js/rtop.videoPlayer.1.0.1.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
