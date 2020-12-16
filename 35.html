@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/rtop.videoPlayer.1.0.1.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+    <style type="text/css">
+        
+    </style>
+</head>
+
+<body>
+    <div class="menu_sidebar ">
+        <img alt="" class="sidebarlogo" src="img/sidebarlogo.png">
+        <img alt="" class="sidebarlogoLarge" src="img/logo-text.png">
+        <ul class="sidebar_menu">
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/home.png">
+                    </div>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/aboutus.png">
+                    </div>
+                    <span class="text">About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/livevideo.png">
+                    </div>
+                    <span class="text">Live Video</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/faq.png">
+                    </div>
+                    <span class="text">FAQ</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/account.png">
+                    </div>
+                    <span class="text">My Account</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/lipstick.png">
+                    </div>
+                    <span class="text">Beauty Cosmetics Fashion</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/theater.png">
+                    </div>
+                    <span class="text">Comedy</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/cinema.png">
+                    </div>
+                    <span class="text">Entertainment</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/brigadeiro.png">
+                    </div>
+                    <span class="text">Food & Drink</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/music.png">
+                    </div>
+                    <span class="text">Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/basketball-ball.png">
+                    </div>
+                    <span class="text">Sports</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/travel.png">
+                    </div>
+                    <span class="text">Travel</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/video_gaming.png">
+                    </div>
+                    <span class="text">Video Gaming</span>
+                </a>
+            </li>
+            <li>
+                <a href="#.">
+                    <div class="icon_area">
+                        <img alt="" class="icon" src="img/sidebar/event.png">
+                    </div>
+                    <span class="text">Weddings & Social Events</span>
+                </a>
+            </li>
+        </ul>
+        <a href="#." class="toggle_sidebar"><i class="fas fa-bars"></i></a>
+        <a href="#." class="logout"><img alt="" src="img/sidebar/logout.png"></a>
+    </div>
+    <div id="wrapper">
+        <section class="top_bar">
+            <div class="container-fluid">
+                <div class="row justifyBetween">
+                    <div class="col-md-6 d-none d-md-block">
+                        <div class="row left">
+                            <div class="col-md-8">
+                                <div class="input_wrapper1">
+                                    <img alt="" class="icon" src="img/search_icon3.png">
+                                    <input type="text" placeholder="Search" name="name">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="dropdown">
+                                    <button class="mr-4 btn btn-primary rounded-btn icon-btn2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        USD($) <img alt="" class="icon" src="img/down_icon.png">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Dropdown1</a>
+                                        <a class="dropdown-item" href="#">Dropdown2</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right">
+                            <a href="#." class="toggle_sidebar_mobile d-md-none"><i class="fas fa-bars"></i></a>
+                            <div class="btn_area">
+                                <button class="btn-outline-primary btn rounded-btn">
+                                    <img alt="" class="icon" src="img/cart.png">
+                                    <span class="item">0 Item</span>
+                                    <span>$0</span>
+                                </button>
+                                <button class="btn-secondary btn rounded-btn">
+                                    <img alt="" class="icon" src="img/video2.png">
+                                    <span>0 Item</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionPT sectionPB">
+            <div class="container-fluid">
+                <h6 class="sectionHeading3 mb-5">User</h6>
+                <div class="userFanPageContainer"></div>
+                <div class="d-flex">
+                    <div class="uFPProfileHolder">
+                        <svg width="70" height="98" class="mt-auto mb-auto" viewBox="0 0 107 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M52.5 61C61.1548 61 68.6481 57.9943 74.7725 52.0642C80.8949 46.135 84 38.8803 84 30.499C84 22.1207 80.8959 14.865 74.7715 8.93388C68.6471 3.00565 61.1538 0 52.5 0C43.8442 0 36.3519 3.00565 30.2285 8.93484C24.1051 14.864 21 22.1197 21 30.499C21 38.8803 24.1051 46.136 30.2285 52.0652C36.3539 57.9934 43.8472 61 52.5 61ZM35.6484 14.1819C40.347 9.63239 45.8588 7.4209 52.5 7.4209C59.1402 7.4209 64.653 9.63239 69.3526 14.1819C74.0511 18.7324 76.336 24.0704 76.336 30.499C76.336 36.9296 74.0511 42.2666 69.3526 46.8171C64.653 51.3676 59.1402 53.5791 52.5 53.5791C45.8608 53.5791 40.349 51.3666 35.6484 46.8171C30.9489 42.2676 28.664 36.9296 28.664 30.499C28.664 24.0704 30.9489 18.7324 35.6484 14.1819Z" fill="#6F3C96"/>
+                            <path d="M106.741 98.0552C106.568 95.5298 106.217 92.775 105.702 89.866C105.181 86.9352 104.511 84.1646 103.708 81.6323C102.879 79.0149 101.752 76.4302 100.358 73.9533C98.9129 71.3824 97.2143 69.1437 95.3082 67.3016C93.3151 65.3744 90.8748 63.825 88.0528 62.6948C85.2407 61.5705 82.1243 61.001 78.7906 61.001C77.4814 61.001 76.2153 61.5438 73.7701 63.1526C72.2652 64.1444 70.5049 65.2914 68.5401 66.56C66.8601 67.6418 64.5841 68.6553 61.773 69.5729C59.0303 70.4697 56.2456 70.9246 53.4961 70.9246C50.7485 70.9246 47.9638 70.4697 45.2192 69.5729C42.411 68.6563 40.1341 67.6427 38.4569 66.561C36.5108 65.3042 34.7495 64.1572 33.2221 63.1516C30.7789 61.5429 29.5127 61 28.2035 61C24.8689 61 21.7534 61.5705 18.9423 62.6958C16.1223 63.824 13.681 65.3735 11.6859 67.3026C9.77984 69.1457 8.08121 71.3834 6.63699 73.9533C5.24462 76.4302 4.11742 79.0139 3.28767 81.6333C2.4863 84.1656 1.81605 86.9352 1.2955 89.866C0.778865 92.7711 0.42955 95.5269 0.25636 98.0582C0.0861057 100.533 0 103.109 0 105.711C0 112.477 2.12818 117.954 6.32485 121.993C10.4697 125.979 15.953 128 22.6233 128H84.3767C91.045 128 96.5284 125.979 100.674 121.993C104.872 117.957 107 112.478 107 105.711C106.999 103.099 106.912 100.523 106.741 98.0552ZM95.4922 116.49C92.7534 119.125 89.1174 120.405 84.3757 120.405H22.6233C17.8806 120.405 14.2446 119.125 11.5068 116.491C8.82094 113.908 7.51566 110.381 7.51566 105.711C7.51566 103.283 7.59491 100.885 7.75342 98.5832C7.90802 96.3248 8.22407 93.8439 8.69276 91.2078C9.15558 88.6043 9.74462 86.161 10.4452 83.949C11.1174 81.8281 12.0342 79.7278 13.1712 77.7048C14.2564 75.7766 15.5049 74.1223 16.8826 72.7894C18.1712 71.5426 19.7955 70.5221 21.7094 69.7568C23.4795 69.0488 25.4687 68.6612 27.6282 68.6029C27.8914 68.7443 28.3601 69.0142 29.1194 69.5145C30.6644 70.532 32.4452 71.6929 34.4139 72.9635C36.6331 74.3933 39.4922 75.6846 42.908 76.799C46.4002 77.9401 49.9618 78.5195 53.4971 78.5195C57.0323 78.5195 60.5949 77.9401 64.0851 76.8C67.5039 75.6837 70.362 74.3933 72.5841 72.9615C74.5988 71.6602 76.3297 70.533 77.8748 69.5145C78.634 69.0152 79.1027 68.7443 79.366 68.6029C81.5264 68.6612 83.5157 69.0488 85.2867 69.7568C87.1996 70.5221 88.8239 71.5436 90.1125 72.7894C91.4902 74.1214 92.7387 75.7756 93.8239 77.7058C94.9618 79.7278 95.8796 81.829 96.5509 83.948C97.2524 86.1629 97.8425 88.6053 98.3043 91.2068C98.772 93.8479 99.089 96.3298 99.2436 98.5842V98.5862C99.4031 100.879 99.4834 103.276 99.4843 105.711C99.4834 110.382 98.1781 113.908 95.4922 116.49Z" fill="#6F3C96"/>
+                        </svg>                            
+                    </div>
+                    <h6 class="uFPName">Gentuu Biggest Fan Page</h6>
+                </div>
+
+                <!-- User Fan Page Nav -->
+                <ul class="nav nav-pills uFPNav mt-5">
+                    <li class="nav-item">
+                      <a class="nav-link d-flex active" aria-current="page" href="#">
+                        <svg width="20" height="22" class="" viewBox="0 0 29 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.5008 17.171C16.8911 17.171 18.9607 16.3545 20.6522 14.7435C22.3432 13.1328 23.2008 11.1619 23.2008 8.88506C23.2008 6.60898 22.3435 4.63787 20.652 3.02661C18.9605 1.41613 16.8909 0.599609 14.5008 0.599609C12.1101 0.599609 10.0408 1.41613 8.3496 3.02687C6.65838 4.63761 5.80078 6.60871 5.80078 8.88506C5.80078 11.1619 6.65838 13.133 8.3496 14.7438C10.0414 16.3542 12.111 17.171 14.5008 17.171ZM9.84654 4.45231C11.1442 3.21637 12.6665 2.61559 14.5008 2.61559C16.3348 2.61559 17.8573 3.21637 19.1553 4.45231C20.453 5.68852 21.0841 7.13863 21.0841 8.88506C21.0841 10.632 20.453 12.0819 19.1553 13.3181C17.8573 14.5543 16.3348 15.1551 14.5008 15.1551C12.6671 15.1551 11.1448 14.554 9.84654 13.3181C8.54857 12.0821 7.9175 10.632 7.9175 8.88506C7.9175 7.13863 8.54857 5.68852 9.84654 4.45231Z" fill="#6F3C96"/>
+                            <path d="M28.9297 27.2524C28.8828 26.5654 28.7878 25.8159 28.6481 25.0244C28.507 24.227 28.3253 23.4732 28.1079 22.7843C27.883 22.0722 27.5778 21.369 27.1999 20.6951C26.8082 19.9956 26.3478 19.3866 25.8312 18.8854C25.291 18.361 24.6296 17.9395 23.8648 17.632C23.1026 17.3261 22.258 17.1712 21.3545 17.1712C20.9996 17.1712 20.6565 17.3189 19.9938 17.7566C19.5859 18.0264 19.1088 18.3384 18.5763 18.6836C18.121 18.9779 17.5041 19.2537 16.7422 19.5033C15.9989 19.7473 15.2441 19.8711 14.4989 19.8711C13.7543 19.8711 12.9995 19.7473 12.2557 19.5033C11.4946 19.2539 10.8775 18.9782 10.4229 18.6839C9.89544 18.3419 9.41809 18.0299 9.00412 17.7563C8.34194 17.3186 7.99878 17.1709 7.64395 17.1709C6.74017 17.1709 5.89579 17.3261 5.13389 17.6323C4.3696 17.9392 3.70794 18.3608 3.16721 18.8856C2.65061 19.3871 2.19024 19.9959 1.79881 20.6951C1.42144 21.369 1.11594 22.0719 0.891051 22.7846C0.673857 23.4735 0.4922 24.227 0.351117 25.0244C0.211094 25.8148 0.11642 26.5646 0.0694808 27.2533C0.0233371 27.9266 0 28.6274 0 29.3355C0 31.1761 0.576796 32.6662 1.71421 33.7652C2.83757 34.8496 4.32372 35.3995 6.13155 35.3995H22.8685C24.6758 35.3995 26.1619 34.8496 27.2855 33.7652C28.4232 32.667 29 31.1764 29 29.3352C28.9997 28.6247 28.9761 27.9239 28.9297 27.2524ZM25.8811 32.2681C25.1388 32.9847 24.1533 33.3331 22.8682 33.3331H6.13155C4.84615 33.3331 3.86069 32.9847 3.11868 32.2683C2.39072 31.5654 2.03695 30.6058 2.03695 29.3355C2.03695 28.6748 2.05843 28.0224 2.1014 27.3961C2.1433 26.7817 2.22895 26.1067 2.35598 25.3895C2.48142 24.6811 2.64106 24.0164 2.83094 23.4146C3.01313 22.8376 3.26162 22.2661 3.56977 21.7157C3.86387 21.1911 4.20226 20.7411 4.57565 20.3784C4.92491 20.0392 5.36514 19.7616 5.88385 19.5533C6.36359 19.3607 6.90273 19.2553 7.48801 19.2394C7.55935 19.2779 7.68638 19.3513 7.89217 19.4874C8.31091 19.7643 8.79356 20.0801 9.32713 20.4258C9.92859 20.8148 10.7035 21.1661 11.6293 21.4693C12.5758 21.7798 13.5411 21.9374 14.4992 21.9374C15.4573 21.9374 16.4229 21.7798 17.3689 21.4696C18.2955 21.1659 19.0701 20.8148 19.6723 20.4252C20.2184 20.0712 20.6875 19.7645 21.1062 19.4874C21.312 19.3516 21.4391 19.2779 21.5104 19.2394C22.0959 19.2553 22.6351 19.3607 23.1151 19.5533C23.6335 19.7616 24.0738 20.0395 24.423 20.3784C24.7964 20.7408 25.1348 21.1909 25.4289 21.716C25.7373 22.2661 25.9861 22.8378 26.168 23.4143C26.3581 24.0169 26.5181 24.6814 26.6432 25.3892C26.77 26.1078 26.8559 26.783 26.8978 27.3964V27.3969C26.941 28.0208 26.9628 28.6729 26.963 29.3355C26.9628 30.6061 26.609 31.5654 25.8811 32.2681Z" fill="#6F3C96"/>
+                        </svg>                            
+                          <h6 class="mt-1 ml-2 mb-0">About us</h6>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <svg width="20" height="20" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30.0958 1.36864C28.2679 -0.456214 25.3079 -0.456214 23.48 1.36864L21.8239 3.03396L4.19497 20.6552L4.1575 20.693C4.14843 20.702 4.14843 20.7117 4.13877 20.7117C4.12004 20.7398 4.09194 20.7676 4.0735 20.7957C4.0735 20.8051 4.06384 20.8051 4.06384 20.8144C4.04511 20.8425 4.03603 20.8613 4.01701 20.8894C4.00794 20.8987 4.00794 20.9078 3.99857 20.9175C3.9892 20.9456 3.97984 20.9643 3.97018 20.9924C3.97018 21.0015 3.9611 21.0015 3.9611 21.0111L0.0497755 32.7741C-0.0649622 33.1089 0.0222619 33.4798 0.274275 33.7283C0.451358 33.9031 0.6902 34.0009 0.9387 34C1.04027 33.9982 1.14095 33.9824 1.23813 33.9532L12.9908 30.0321C12.9999 30.0321 12.9999 30.0321 13.0096 30.023C13.0391 30.0142 13.0675 30.0016 13.0936 29.9853C13.1009 29.9844 13.1073 29.9812 13.1126 29.9762C13.1404 29.9574 13.1779 29.9384 13.206 29.9197C13.2338 29.9012 13.2622 29.8731 13.2903 29.8544C13.2996 29.8447 13.3087 29.8447 13.3087 29.8357C13.3184 29.8263 13.3371 29.8172 13.3465 29.7982L32.6315 10.5114C34.4562 8.68328 34.4562 5.72294 32.6315 3.89516L30.0958 1.36864ZM12.6914 27.8328L6.17888 21.32L22.479 5.01835L28.9915 11.5312L12.6914 27.8328ZM5.26156 23.0512L10.951 28.7409L2.40775 31.5856L5.26156 23.0512ZM31.3123 9.20111L30.3203 10.2025L23.8075 3.68908L24.8091 2.68796C25.9047 1.59316 27.6805 1.59316 28.7764 2.68796L31.3214 5.23321C32.4087 6.33386 32.4046 8.10573 31.3123 9.20111Z" fill="white"/>
+                        </svg>                            
+                          Link
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg width="20" height="21" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.14053 34.3126L12.9605 32.3126C17.432 34.4917 22.7065 34.2372 26.9474 31.6379C31.1884 29.0385 33.8089 24.454 33.8965 19.4806C33.959 15.6155 32.4803 11.8845 29.7868 9.11167C27.0934 6.33885 23.4069 4.75238 19.5415 4.70265C16.5178 0.670712 11.0733 -0.674746 6.51953 1.48465L2.51053 0.102647C1.93311 -0.095596 1.29553 -0.00334489 0.797974 0.350436C0.300419 0.704217 0.00390625 1.27614 0.00153351 1.88665C0.00037384 2.09742 0.0341644 2.30693 0.101532 2.50665L1.47953 6.51565C0.809086 7.93224 0.459766 9.47941 0.456532 11.0466V11.0636C0.455406 14.4476 2.07256 17.628 4.80753 19.6206C4.86255 21.7061 5.36416 23.7555 6.27853 25.6306L4.27853 31.4506C4.19669 31.6878 4.15479 31.9368 4.15453 32.1876C4.15754 32.9129 4.50986 33.5924 5.10093 34.0127C5.69201 34.4331 6.44942 34.5429 7.13553 34.3076L7.14053 34.3126ZM2.51053 11.0676V11.0546C2.51223 9.66741 2.85058 8.30131 3.49653 7.07365C3.62878 6.8233 3.65158 6.5294 3.55953 6.26165L2.14953 2.15065L6.26053 3.56265C6.52828 3.6547 6.82219 3.63189 7.07253 3.49965C10.3303 1.78005 14.3233 2.34144 16.9805 4.89265C10.7721 5.9357 5.93134 10.8409 4.97053 17.0626C3.3933 15.4661 2.50936 13.3119 2.51053 11.0676ZM6.22253 32.1216C6.19435 32.1931 6.21303 32.2746 6.26953 32.3266C6.32153 32.3839 6.40357 32.403 6.47553 32.3746L12.7065 30.2336C12.9743 30.1416 13.2682 30.1644 13.5185 30.2966C17.36 32.3229 21.978 32.2099 25.7158 29.9982C29.4536 27.7865 31.7755 23.7932 31.8485 19.4506C31.9031 16.066 30.5826 12.8038 28.189 10.4102C25.7953 8.01653 22.5332 6.69604 19.1485 6.75065C12.3389 6.8885 6.88328 12.4347 6.85753 19.2456V19.2646C6.86094 21.2909 7.35612 23.286 8.30053 25.0786C8.43278 25.329 8.45558 25.6229 8.36353 25.8906L6.22253 32.1216Z" fill="white"/>
+                            </svg>                                                          
+                            Comments
+                          </a>
+                      </li>
+                </ul>
+                <!-- ./ User Fan Page Nav -->
+
+                <!-- No Information placeholder -->
+                <div class="uFPHolder">
+                    <div class="d-flex justify-content-center">
+                        <svg width="166" height="166" viewBox="0 0 166 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M165.307 89.9574C165.414 82.0373 163.892 74.1799 160.836 66.8742C157.781 59.5685 153.256 52.971 147.544 47.4922C141.958 41.6649 135.229 37.057 127.779 33.9576C120.33 30.8583 112.322 29.3343 104.257 29.4814C103.073 29.4814 101.996 29.5206 101.037 29.5936C99.9252 29.52 98.7782 29.4826 97.5956 29.4814C89.532 29.348 81.5273 30.8782 74.0796 33.9767C66.632 37.0753 59.9008 41.6759 54.3049 47.4922C51.4338 50.3512 48.8381 53.4748 46.5522 56.8215L32.5449 3.95349C32.2451 2.82047 31.5797 1.81849 30.6523 1.10347C29.725 0.388448 28.5876 0.000526884 27.4173 0H5.30713C3.89959 1.68049e-07 2.5497 0.55999 1.55442 1.5568C0.559133 2.55361 0 3.90557 0 5.31527C0 6.72497 0.559133 8.07693 1.55442 9.07374C2.5497 10.0705 3.89959 10.6305 5.30713 10.6305H23.3347L39.4552 71.4804L49.6909 110.108C52.2592 118.412 58.3128 133.427 70.3525 142.712C68.3304 143.687 66.6201 145.208 65.4137 147.103C64.2074 148.999 63.553 151.194 63.524 153.442C63.6836 156.726 65.0988 159.824 67.4763 162.092C69.8539 164.36 73.0116 165.625 76.2951 165.625C79.5786 165.625 82.7363 164.36 85.1139 162.092C87.4914 159.824 88.9066 156.726 89.0662 153.442C89.0477 152.242 88.8427 151.052 88.4583 149.915C91.4868 150.333 94.5404 150.542 97.5974 150.54C98.7823 150.54 99.9293 150.503 101.038 150.43C101.998 150.503 103.075 150.54 104.259 150.54C106.948 150.523 109.634 150.345 112.301 150.006C111.937 151.114 111.742 152.27 111.724 153.436C111.883 156.721 113.299 159.818 115.676 162.087C118.054 164.355 121.211 165.62 124.495 165.62C127.778 165.62 130.936 164.355 133.314 162.087C135.691 159.818 137.106 156.721 137.266 153.436C137.249 151.569 136.795 149.732 135.939 148.072C135.084 146.413 133.851 144.978 132.341 143.883C137.967 140.911 143.097 137.08 147.546 132.528C153.275 127.04 157.81 120.426 160.867 113.101C163.923 105.775 165.435 97.8959 165.307 89.9574Z" fill="#707070" fill-opacity="0.25"/>
+                            <circle cx="79.5" cy="72.5" r="8.5" fill="white"/>
+                            <circle cx="127.5" cy="72.5" r="8.5" fill="white"/>
+                            <path d="M83.8406 119.74C83.1449 120.933 83.5477 122.464 84.7403 123.159C85.933 123.855 87.4637 123.452 88.1594 122.26L83.8406 119.74ZM102.8 109L102.8 106.5L102.8 109ZM118.877 122.321C119.607 123.493 121.148 123.852 122.321 123.123C123.493 122.393 123.852 120.852 123.123 119.679L118.877 122.321ZM88.1594 122.26C89.3024 120.3 91.4734 117.529 94.195 115.275C96.9493 112.994 99.9525 111.499 102.8 111.5L102.8 106.5C98.2818 106.499 94.1684 108.805 91.0058 111.424C87.8105 114.07 85.2643 117.3 83.8406 119.74L88.1594 122.26ZM102.8 111.5C108.081 111.501 113.646 113.912 118.877 122.321L123.123 119.679C117.154 110.087 110.119 106.501 102.8 106.5L102.8 111.5Z" fill="white"/>
+                        </svg>                                                     
+                    </div>
+                    <h6 class="text-center mt-4">This user has not added any information to their profile yet.</h6>
+                </div>
+                <!-- ./ No Information placeholder -->
+
+            </div>
+        </section>
+
+        <section class="sectionBg2 vd_su2">
+            <div class="container-fluid">
+                <div class="video_suggestions">
+                    <div class="single_suggestion">
+                        <div class="title_sec">
+                            <h2 class="heading">Trending</h2>
+                            <!-- <div class="btn_area">
+                                <button type="button" class="btn btn-outline-primary rounded-btn">Top View</button>
+                                <button type="button" class="btn btn-secondary rounded-btn">View All</button>
+                            </div> -->
+                        </div>
+                        <div class="suggestion_list">
+                            <div class="owl-carousel owl-theme suggestion_carousel suggestion_carousel_r4">
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy 2</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="single_video">
+                                        <a href="#" class="img_area">
+                                            <img alt="" src="img/action2.png">
+                                            <i class="fas fa-play icon"></i>
+                                        </a>
+                                        <div class="info">
+                                            <h2 class="title">Cast of Ryan Murphy</h2>
+
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-eye icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a href="" class="sm-content">
+                                                <i class="far fa-comments icon"></i>
+                                                <span>5k view</span>
+                                            </a>
+                                            <a class="option" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="sectionPT sectionPB">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <div class="img_area">
+                                <img alt="" class="logo" src="img/footer-logo.png">
+                            </div>
+                            <p>For users: Vicomma has combined the joy of watching videos with the convenience of buying what you see in your favorites videos. Get the latest products, merchandise, event tickets, specials and discounts, and more all in one place.
+                            </p>
+                            <p>For vendors: Register a Vendor Station to develop a direct</p>
+                            <ul class="social_list1">
+                                <li><a href="#."><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#."><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#."><i class="fab fa-tiktok"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box video_footer">
+                            <h2 class="heading">The  Latest</h2>
+                            <a href="#." class="videoBox">
+                                <div class="img_area">
+                                    <img alt="" src="img/footer-image.png">
+                                    <i class="fas fa-play icon"></i>
+                                </div>
+                            </a>
+                            <a href="#." class="videoBox">
+                                <div class="img_area">
+                                    <img alt="" src="img/footer-image2.png">
+                                    <i class="fas fa-play icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <h2 class="heading">Library</h2>
+
+                            <ul class="list">
+                                <li><a href="#.">Beauty Cosmetics Fashion</a></li>
+                                <li><a href="#.">Comedy</a></li>
+                                <li><a href="#.">Entertainment</a></li>
+                                <li><a href="#.">Food & Drink</a></li>
+                                <li><a href="#.">Gist n Tabloid</a></li>
+                                <li><a href="#.">Music </a></li>
+                                <li><a href="#.">Travel & Events</a></li>
+                                <li><a href="#.">Video Gaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer_box">
+                            <h2 class="heading">Relevant Interest</h2>
+
+                            <ul class="list">
+                                <li><a href="#.">Send Us A Quick Message</a></li>
+                                <li><a href="#.">Privacy Policy </a></li>
+                                <li><a href="#.">Vendor and User Information</a></li>
+                                <li><a href="#.">Delivery Information</a></li>
+                                <li><a href="#.">Online Video Submission Agreement</a></li>
+                                <li><a href="#.">Return Policy </a></li>
+                                <li><a href="#.">Tearms & Conditions </a></li>
+                                <li><a href="#.">Your Account</a></li>
+                                <li><a href="#.">Advertise With Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/jquery.syotimer.min.js"></script>
+
+    <script type="text/javascript" src="js/rtop.videoPlayer.1.0.1.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
