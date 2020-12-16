@@ -4599,17 +4599,42 @@ h2{
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
     margin-bottom: 10px;
 }
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .contactFreelancerFormContainer {
-        margin-top: -5rem;
-    }
-
+/* bid page */
+.bidContainer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-top: 5px solid var(--snd-color);
+    width: 70%;
+    margin: 1rem auto;
+    padding: 4rem 2rem 6rem 2rem;
 }
+.accountTypeContainer h5 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.accountTypeContainer p{
+    color: #707070;
+    font-size: 15px;
+}
+.accountType {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    padding: 2rem 4rem;
+}
+.accountType h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #000000;
+}
+/* ../bid page */
+
 
 @media only screen and (max-width: 400px) {
     .skillsRequiredContainer {
@@ -4978,6 +5003,7 @@ h2{
     .pRSUBH {
         padding-top: 20px;
         padding-bottom: 20px;
+        text-align: left!important;
     }
     /* ../ 3129498 Page */
 
@@ -5016,5 +5042,62 @@ h2{
     [class^='col-sm-'] {
         margin-bottom: 10px; 
     } 
+    /* bid page */
+    .bidContainer {
+        width: 100%;
+    }
+    .accountType {
+        padding: .5rem;
+    }
+    .accountType svg {
+        width: 50px;
+        height: 50px;
+    }
+    .accountType span svg {
+        width: 28px;
+        height: 12px;
+    }
+    .accountType span {
+        margin-top: .5rem!important;
+    }
+    .accountType h6 {
+        margin-top: .5rem!important;
+        font-size: 15px;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .contactFreelancerFormContainer {
+        margin-top: -5rem;
+    }
 
 }
+
+@media screen and (max-width: 800px) {
+        /* bid page */
+        .bidContainer {
+            width: 100%;
+        }
+        .accountType {
+            padding: .5rem;
+        }
+        .accountType svg {
+            width: 50px;
+            height: 50px;
+        }
+        .accountType span svg {
+            width: 28px;
+            height: 12px;
+        }
+        .accountType span {
+            margin-top: .5rem!important;
+        }
+        .accountType h6 {
+            margin-top: .5rem!important;
+            font-size: 15px;
+        }
+  }
