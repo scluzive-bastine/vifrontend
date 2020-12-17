@@ -4635,6 +4635,43 @@ h2{
 }
 /* ../bid page */
 
+/* my account detaiks */
+.accountDetailsContainer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 4rem 2rem;
+}
+.aDCDes {
+    font-size: 12px;
+    color: var(--snd-color);
+}
+.passwordChangeContainer {
+    border: 1px solid var(--main-color);
+    border-radius: 30px;
+    padding: 2rem;
+}
+.pCCLabel {
+    background: #FFFFFF;
+    color: var(--snd-color);
+    font-size: 15px;
+    margin-top: -45px;
+    width: 150px;
+    padding: 5px;
+}
+.accountDetailsContainer h3{
+    color: var(--snd-color);
+    font-weight: 500;
+}
+.accountDetailsContainer h6{
+    color: var(--main-color);
+    font-weight: 400;
+}
+.accountDetailsContainer h6 a{
+    color: var(--snd-color);
+}
+/*../ my account detaiks */
+
 
 @media only screen and (max-width: 400px) {
     .skillsRequiredContainer {
@@ -5063,6 +5100,15 @@ h2{
     .accountType h6 {
         margin-top: .5rem!important;
         font-size: 15px;
+    }
+    .accountDetailsContainer {
+        padding: 1rem;
+    }
+    .passwordChangeContainer {
+        padding: 1rem;
+    }
+    .pCCLabel {
+        margin-top: -33px;
     }
 }
 
