@@ -4672,14 +4672,275 @@ h2{
 }
 /*../ my account detaiks */
 
+/* Chat Screen */
+.cHUsername {
+    color: #707070;
+}
+.chatScreenHeader {
+    /* height: 200px; */
+    background: var(--snd-color);
+    border-radius: 10px;
+    padding: 2rem;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+}
+.chatScreenOption {
+    display: flex;
+}
+.chatSectionContainer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.chatHeader {
+    display: flex;
+}
+.chatUser {
+    display: flex;
+}
+.chatUser img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.amDA {
+    color: #707070;
+    font-size: 12px;
+}
+.chatFooter {
+    display: flex;
+}
+.btnCancel {
+    cursor: pointer;
+}
+.btnCancel svg {
+    width: 30px;
+}
+
+.cHCheck {
+    padding: 0 .5rem;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+    display: flex;
+}
+.cHCheck div svg {
+    width: 30px;
+    height: 30px;
+}
+.cFActions div svg {
+    width: 30px;
+    height: 30px;
+}
+.cFABtn {
+    padding-top: .3rem!important;
+    padding-bottom: .3rem!important;
+    min-height: 30px!important;
+    min-width: 100px!important;
+}
+.activeChatContainer {
+    background: #FFFFFF;
+    height: 600px;
+    width: 600px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    overflow: scroll;
+    display: none;
+}
+.activeChatHeader {
+    background: var(--snd-color);
+    color: #FFFFFF;
+    display: flex;
+    padding: 2rem;
+    position: fixed;
+    width: 600px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.acHUser {
+    display: flex;
+}
+.acHUser div img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.acHUser div:nth-child(1) span {
+    width: 12px;
+    height: 12px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    margin-left: -1rem;
+    background: var(--main-color);
+    margin-top: .3rem;
+}
+.acHClose {
+    cursor: pointer;
+}
+.acHClose svg {
+    width: 20px;
+    height: 20px;
+}
+.activeChatSubHeader {
+    display: flex;
+    padding: 2rem;
+    background: rgba(148, 202, 82, 0.1);
+}
+.activeChatBody {
+    padding: 2rem;
+    height: 412px;
+    width: auto;
+    overflow: scroll;
+}
+.recMessContainer {
+    width: 70%;
+    height: auto;
+    margin-top: 3rem;
+    padding: .35rem .5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.senMessContainer {
+    width: 70%;
+    height: auto;
+    margin-top: 3rem;
+    padding: .35rem .5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-left: auto;
+}
+.senMessContainer img {
+    width: 50px;
+    height: 50px;
+    margin-top: -1rem;
+    border-radius: 50%;
+}
+.senMessContainer div span {
+    color: #707070;
+    font-size: 15px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.recMessContainer img {
+    width: 50px;
+    height: 50px;
+    margin-top: -1rem;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.recMessContainer div span {
+    color: #707070;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.rECMs{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.rECMs p {
+    font-size: 15px;
+}
+.activeSendMessage {
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    bottom: 0;
+    position: fixed;
+    width: 580px;
+    margin-bottom: 1rem;
+    z-index: 1;
+    background: #fff;
+    margin-left: .5rem;
+    right: .5rem;
+}
+.aSMcontainer input {
+    border: 0px;
+}
+.aSMcontainer input:focus{
+    border: 0px;
+    box-shadow: none;
+}
+.aSMcontainer {
+    display: flex;
+}
+.aSMEm {
+    margin-top: .75rem;
+}
+.aSMEm svg {
+    width: 20px;
+    height: 20px;
+}
+.sendSMEM {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: .5rem;
+    margin-left: .5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+.sendSMEM svg {
+    width: 20;
+    height: 21px;
+    margin-top: .2rem;
+}
+/* Chat Screen */
+.mobileNavigation {
+    display: none;
+}
 
 @media only screen and (max-width: 400px) {
     .skillsRequiredContainer {
         overflow-x: scroll;
     }
+    .mobileNavigation {
+        display: block;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
+    /*  */
+    .mobileNavigation {
+        display: block;
+    }
+    .mbNav li .nav-link {
+        color: var(--main-color)!important;
+    }
+    .mBNAV {
+        display: none;
+    }
+    .mobileNavigation nav {
+        box-shadow: none!important;
+        border: 0px;
+    }
+    .mobileNavigation nav a {
+        color: var(--main-color)!important;
+    }
+    .mbNavToggler svg {
+        width: 30px;
+        height: 30px;
+    }
+    .mbNavToggler {
+        border: 0px;
+    }
+    .mbNav li a {
+        padding: 15px 20px!important;
+    }
+    .mbNav li a.active {
+        background: var(--main-color);
+        color: #FFFFFF!important;
+        border-radius: 50px;
+    }
+    /*  */
     .coverItem .coverTitle{
         font-size: 24px;
         line-height: 26px;
@@ -5110,15 +5371,116 @@ h2{
     .pCCLabel {
         margin-top: -33px;
     }
+    /* chat Screen page */
+    .chatScreenHeader h1 {
+        font-size: 20px;
+    }
+    .chatScreenOption {
+        display: block;
+    }
+    .chatScreenOption div button {
+        margin-bottom: 10px;
+    }
+    .chatScreenOption div button:nth-child(2) {
+        margin-left: 0!important;
+    }
+    .chatHeader {
+        display: block;
+    }
+    .amountDays {
+        margin-left: 100px!important;
+    }
+    .amountDays h6{
+        text-align: left!important;
+    }
+    .chatFooter {
+        display: block;
+    }
+    .chatFooter .cFBActions {
+        margin-top: 1rem;
+    }
+    .activeChatContainer {
+        width: 100%;
+    }
+    .activeChatHeader {
+        width: 100%;
+    }
+    .recMessContainer {
+        width: 100%;
+    }
+    .senMessContainer {
+        width: 100%;
+    }
+    .activeSendMessage {
+        width: 100%;
+        left: .2rem;
+        right: .2rem;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .mobileNavigation {
+        display: block;
+    }
+    /* chat Screen page */
+    .chatScreenHeader h1 {
+        font-size: 20px;
+    }
+    .chatScreenOption {
+        display: block;
+    }
+    .chatScreenOption div button {
+        margin-bottom: 10px;
+    }
+    .chatScreenOption div button:nth-child(2) {
+        margin-left: 0!important;
+    }
+    .chatHeader {
+        display: block;
+    }
+    .amountDays {
+        margin-left: 100px!important;
+    }
+    .amountDays h6{
+        text-align: left!important;
+    }
+    .chatFooter {
+        display: block;
+    }
+    .chatFooter .cFBActions {
+        margin-top: 1rem;
+    }
+    .contactFreelancerFormContainer {
+        margin-top: -5rem;
+    }
+    .pRSUBH {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: left!important;
+    }
+    .uContact {
+        display: block;
+    }
 }
 
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
     .contactFreelancerFormContainer {
         margin-top: -5rem;
+    }
+    .uContact {
+        justify-content: center;
+        display: block!important;
+    }
+    .uContact .btn {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+    .uContact .btn:nth-child(2) {
+        margin-top: .5rem;
     }
 
 }
@@ -5146,4 +5508,77 @@ h2{
             margin-top: .5rem!important;
             font-size: 15px;
         }
+        .contactFreelancerFormContainer {
+            margin-top: -5rem;
+        }
+
+            /*  */
+        .mobileNavigation {
+            display: block;
+        }
+        .mbNav li .nav-link {
+            color: var(--main-color)!important;
+        }
+        .mBNAV {
+            display: none;
+        }
+        .mobileNavigation nav {
+            box-shadow: none!important;
+            border: 0px;
+        }
+        .mobileNavigation nav a {
+            color: var(--main-color)!important;
+        }
+        .mbNavToggler svg {
+            width: 30px;
+            height: 30px;
+        }
+        .mbNavToggler {
+            border: 0px;
+        }
+        .mbNav li a {
+            padding: 15px 20px!important;
+        }
+        .mbNav li a.active {
+            background: var(--main-color);
+            color: #FFFFFF!important;
+            border-radius: 50px;
+        }
+    /*  */
+  }
+
+  @media screen and (max-width: 990px) {
+                  /*  */
+                  .mobileNavigation {
+                    display: block;
+                }
+                .mbNav li .nav-link {
+                    color: var(--main-color)!important;
+                }
+                .mBNAV {
+                    display: none;
+                }
+                .mobileNavigation nav {
+                    box-shadow: none!important;
+                    border: 0px;
+                }
+                .mobileNavigation nav a {
+                    color: var(--main-color)!important;
+                }
+                .mbNavToggler svg {
+                    width: 30px;
+                    height: 30px;
+                }
+                .mbNavToggler {
+                    border: 0px;
+                }
+                .mbNav li a {
+                    padding: 15px 20px!important;
+                }
+                .mbNav li a.active {
+                    background: var(--main-color);
+                    color: #FFFFFF!important;
+                    border-radius: 50px;
+                }
+            /*  */
   }
